@@ -57,7 +57,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SMY-Xj-CH8">
                                         <rect key="frame" x="0.0" y="343" width="343" height="110"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fork" translatesAutoresizingMaskIntoConstraints="NO" id="qz0-gE-2yE">
+                                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fork" translatesAutoresizingMaskIntoConstraints="NO" id="qz0-gE-2yE">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="110"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="110" id="FVC-In-u0r"/>
@@ -75,7 +75,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DBi-E9-I60">
                                         <rect key="frame" x="0.0" y="552" width="343" height="65"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wheelIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2k4-6D-lbu">
+                                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wheelIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2k4-6D-lbu">
                                                 <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="65" id="o6V-BV-uVh"/>
