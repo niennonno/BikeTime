@@ -44,10 +44,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="sEX-CH-4hV">
-                                        <rect key="frame" x="0.0" y="195" width="333" height="48"/>
+                                        <rect key="frame" x="0.0" y="203" width="333" height="46"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bike" translatesAutoresizingMaskIntoConstraints="NO" id="g8X-nF-q6h">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="46"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="J9C-4q-8eO"/>
+                                                    <constraint firstAttribute="height" constant="46" id="kZm-TU-Znu"/>
+                                                </constraints>
+                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="model" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RR9-nf-fcZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="333" height="48"/>
+                                                <rect key="frame" x="105" y="0.0" width="228" height="46"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <color key="textColor" red="0.14685019850730896" green="0.5634540319442749" blue="0.83310025930404663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -55,17 +62,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SMY-Xj-CH8">
-                                        <rect key="frame" x="0.0" y="343" width="343" height="110"/>
+                                        <rect key="frame" x="0.0" y="357" width="343" height="88"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fork" translatesAutoresizingMaskIntoConstraints="NO" id="qz0-gE-2yE">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="110"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="88"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="110" id="FVC-In-u0r"/>
-                                                    <constraint firstAttribute="width" constant="50" id="pTr-Un-UNG"/>
+                                                    <constraint firstAttribute="height" constant="88" id="FVC-In-u0r"/>
+                                                    <constraint firstAttribute="width" constant="40" id="pTr-Un-UNG"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fork" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xlo-ds-KgJ">
-                                                <rect key="frame" x="70" y="31" width="273" height="48"/>
+                                                <rect key="frame" x="60" y="20" width="283" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <color key="textColor" red="0.14685019850730896" green="0.5634540319442749" blue="0.83310025930404663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -127,6 +134,7 @@
     </scenes>
     <resources>
         <image name="add" width="96" height="96"/>
+        <image name="bike" width="76" height="46"/>
         <image name="fork" width="61" height="134"/>
         <image name="wheelIcon" width="67" height="67"/>
     </resources>
